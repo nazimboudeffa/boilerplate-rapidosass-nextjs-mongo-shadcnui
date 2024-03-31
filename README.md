@@ -12,12 +12,18 @@
 <br/>
 
 <div align="center">
-<img src="./public/donations/paypal_logo.svg" width="70">
+  <a href="https://paypal.me/nazimboudeffa"
+    <img src="./public/donations/paypal_logo.svg">
+  </a>
 </div>
 
 ## Introduction
 
 Influence is an open-source SaaS boilerplate where you can make business online.
+
+## Donations
+
+Please help me with a donation on PayPal by clicking on the logo or following https://paypal.me/nazimboudeffa
 
 ## Features
 
