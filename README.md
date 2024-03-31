@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-  <a href="https://paypal.me/nazimboudeffa"
+  <a href="https://paypal.me/nazimboudeffa">
     <img src="./public/donations/paypal_logo.svg">
   </a>
 </div>
