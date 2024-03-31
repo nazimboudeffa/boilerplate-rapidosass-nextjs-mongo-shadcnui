@@ -7,7 +7,7 @@ import { buttonVariants } from "@/components/ui/button"
 import Header from "@/components/Header"
 
 import Image from 'next/image'
-import tipeee from "../../../public/tipeee_logo_red.svg"
+import paypal from "../../../public/donations/paypal_logo.svg"
 
 import { useSession } from "next-auth/react";
 
@@ -120,10 +120,10 @@ function Pricing() {
                     Donation methods and rules.
                 </h1>
                 <div className="flex flex-wrap md:flex-row gap-3 justify-center">
-                    <Link href="https://fr.tipeee.com/nazimboudeffa"><Image src={tipeee} height={80} alt="tipee" /></Link>
+                    <Link href="https://paypal.me/nazimboudeffa"><Image src={paypal} height={80} alt="paypal" /></Link>
                 </div>
                 <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-                    Please donate by clicking on Tipeee.
+                    Please donate by clicking on the PayPal logo &#129309;.
                 </p>
                 <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
                     You have to notice that donations are not refundable and the service can stop at anytime.
