@@ -13,7 +13,7 @@
 
 ## Introduction
 
-Influence is an open-source SaaS where you can make business online.
+Influence is an open-source SaaS boilerplate where you can make business online.
 
 ## Features
 
@@ -40,7 +40,7 @@ npm run dev
 - [Shadcn/UI](https://ui.shadcn.com/) - UI
 - [Coolify](https://coolify.io/) – hosting, or Vercel for demo
 - [MongoDB](https://www.mongodb.com/products/tools/compass) - DB
-- [MAil in a Box](https://mailinabox.email) - Email instead of Mailjet or Resend 
+- [Mail in a Box](https://mailinabox.email) - to send Emails instead of Mailjet or Resend 
 
 ## Contributing
 
