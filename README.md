@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-<img src="./public/donations/paypal_logo.svg" width="50">
+<img src="./public/donations/paypal_logo.svg" width="70">
 </div>
 
 ## Introduction
