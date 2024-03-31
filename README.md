@@ -11,7 +11,7 @@
 </p>
 <br/>
 
-<img align="center" src="./public/paypal_logo.svg"></img>
+<img align="center" src="./public/paypal_logo.svg">
 
 ## Introduction
 
