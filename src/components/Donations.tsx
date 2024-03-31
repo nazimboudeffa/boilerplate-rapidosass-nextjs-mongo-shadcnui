@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import tipeee from "/public/donations/tipeee_logo.svg"
 
-function Caroussel () {
+function Donations () {
     return (
         <div className="flex overflow-hidden space-x-16 group">
         <div className="flex space-x-16 animate-loop-scroll">
@@ -18,4 +18,4 @@ function Caroussel () {
     )
 }
 
-export default Caroussel
+export default Donations
