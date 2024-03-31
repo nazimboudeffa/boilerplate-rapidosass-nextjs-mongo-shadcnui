@@ -11,4 +11,5 @@ export const authOptions: NextAuthOptions = {
       }),
     ],
     adapter: MongoDBAdapter(MongoClientPromise),
+    secret: process.env.NEXTAUTH_SECRET,
   };
