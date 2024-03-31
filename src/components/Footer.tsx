@@ -11,7 +11,7 @@ function Footer () {
                 
                 <div className="flex justify-center text-sm text-gray-500 sm:justify-end lg:mt-0 lg:text-right">
                 <p>
-                    &copy; 2024 Allbiiiz
+                    &copy; 2024 ACME
                 </p>
                 </div>
             </div>
