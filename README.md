@@ -38,8 +38,9 @@ npm run dev
 - [Typescript](https://www.typescriptlang.org/) – language
 - [Tailwind](https://tailwindcss.com/) – CSS
 - [Shadcn/UI](https://ui.shadcn.com/) - UI
-- [Coolify](https://coolify.io/) – hosting
+- [Coolify](https://coolify.io/) – hosting, or Vercel for demo
 - [MongoDB](https://www.mongodb.com/products/tools/compass) - DB
+- [MAil in a Box](https://mailinabox.email) - Email instead of Mailjet or Resend 
 
 ## Contributing
 
