@@ -11,6 +11,8 @@
 </p>
 <br/>
 
+<img align="center" src="public/paypal_logo.svg"></img>
+
 ## Introduction
 
 Influence is an open-source SaaS boilerplate where you can make business online.
