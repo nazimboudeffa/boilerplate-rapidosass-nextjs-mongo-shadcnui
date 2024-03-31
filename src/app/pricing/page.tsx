@@ -117,13 +117,16 @@ function Pricing() {
                 <h1
                     className={`text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl ${fontHeading.variable}`}
                 >
-                    Donation methods and rules.
+                    This boilerplate is FREE
                 </h1>
                 <div className="flex flex-wrap md:flex-row gap-3 justify-center">
                     <Link href="https://paypal.me/nazimboudeffa"><Image src={paypal} height={80} alt="paypal" /></Link>
                 </div>
                 <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
                     Please donate by clicking on the PayPal logo &#129309;.
+                </p>
+                <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
+                    Or visit <Link href="https://paypal.me/nazimboudeffa">https://paypal.me/nazimboudeffa</Link>.
                 </p>
                 <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
                     You have to notice that donations are not refundable and the service can stop at anytime.
