@@ -24,7 +24,7 @@ Influence is an open-source SaaS boilerplate where you can make business online.
 ## Documentation
 
 
-Start from zero hero 
+Start from zero to hero 
 
 - Learn JavaScript
 - Learn Next.js
