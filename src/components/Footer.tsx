@@ -1,18 +1,21 @@
 "use client"
+import { ModeToggle } from "@/components/theme-toggle"
 
 function Footer () {
     return (
         <footer>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-            <div className="sm:flex sm:items-center sm:justify-between">
-                <div className="flex justify-center text-gray-500 sm:justify-start">
+            <div className="flex items-center justify-between">
+                <div className="flex text-gray-500">
                     <p>Crafted with <span className="text-red-500">❤</span> on <a href="https://github.com/nazimboudeffa/boilerplate-magiclink-nextjs-mongo"><u>GitHub</u></a></p> 
-                </div>  
+                </div>
                 
-                <div className="flex justify-center text-sm text-gray-500 sm:justify-end lg:mt-0 lg:text-right">
-                <p>
-                    &copy; 2024 ACME
-                </p>
+                <div className="flex text-gray-500">
+                    <p>&copy; 2024 ACME</p>
+                </div>
+
+                <div className="flex">
+                    <ModeToggle />
                 </div>
             </div>
         </div>

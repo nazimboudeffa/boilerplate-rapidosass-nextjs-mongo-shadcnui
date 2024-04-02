@@ -4,7 +4,6 @@ import {
     LucideProps,
     Moon,
     SunMedium,
-    Twitter,
     User,
     LucideIcon,
 } from "lucide-react"
@@ -12,10 +11,9 @@ import {
 export type Icon = LucideIcon
 
 export const Icons = {
-    sun: SunMedium,
-    moon: Moon,
+    Sun: SunMedium,
+    Moon: Moon,
     logo: Flame,
-    twitter: Twitter,
     chevronLeft: ChevronLeft,
     user: User,
     gitHub: (props: LucideProps) => (
