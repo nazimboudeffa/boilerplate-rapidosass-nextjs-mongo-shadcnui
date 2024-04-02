@@ -23,9 +23,8 @@ Influence is an open-source SaaS boilerplate where you can make business online.
 
 ## Documentation
 
-Available on https://nazimboudeffa.gumroad.com/l/nextjs-boilerplate
 
-Start from learning JavaScript to Next.js and launch your SaaS from zero
+Start from learning JavaScript to Next.js and launch your SaaS from zero, the doc is available on https://nazimboudeffa.gumroad.com
 
 ## Donations
 
