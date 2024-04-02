@@ -35,7 +35,7 @@ Please note that your donation is not an engagement of any of the parts, you are
 
 ## Support
 
-On Discord https://discord.gg/EpZTKMb
+You can join our little server on Discord https://discord.gg/EpZTKMb
 
 ## Features
 
