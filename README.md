@@ -29,9 +29,7 @@ The doc is available on https://nazimboudeffa.gumroad.com
 
 Please help me with a donation by clicking on the PayPal logo or follow https://paypal.me/nazimboudeffa
 
-## Help
-
-You can join our Discord https://discord.gg/EpZTKMb
+Please note that it's not an engagement of any of the parts, you are free, we are free and we love free softwares
 
 ## Features
 
