@@ -21,13 +21,13 @@
 
 Influence is an open-source SaaS boilerplate where you can make business online.
 
-## Donations
-
-Please help me with a donation on PayPal by clicking on the logo or following https://paypal.me/nazimboudeffa
-
 ## Documentation
 
 Available on https://nazimboudeffa.gumroad.com/l/nextjs-boilerplate
+
+## Donations
+
+Please help me with a donation on PayPal by clicking on the logo or following https://paypal.me/nazimboudeffa
 
 ## Features
 
