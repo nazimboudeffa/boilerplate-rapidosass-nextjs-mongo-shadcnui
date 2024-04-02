@@ -33,6 +33,10 @@ But you can make a donation by clicking on the PayPal logo or follow https://pay
 
 Please note that your donation is not an engagement of any of the parts, you are free, we are free, and we love free softwares
 
+## Support
+
+On Discord https://discord.gg/EpZTKMb
+
 ## Features
 
 - Networking
