@@ -28,7 +28,7 @@ Start from zero by learning JavaScript then Next.js and launch your SaaS easy, t
 
 ## Donations
 
-Please help me with a donation on PayPal by clicking on the logo or following https://paypal.me/nazimboudeffa
+Please help me with a donation by clicking on the PayPal logo or follow https://paypal.me/nazimboudeffa
 
 ## Features
 
