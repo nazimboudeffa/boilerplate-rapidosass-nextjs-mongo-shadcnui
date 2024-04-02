@@ -27,9 +27,9 @@ The doc is available on https://nazimboudeffa.gumroad.com
 
 ## Donations
 
-Please help me with a donation by clicking on the PayPal logo or follow https://paypal.me/nazimboudeffa
+This software is free but you can make a donation by clicking on the PayPal logo or follow https://paypal.me/nazimboudeffa
 
-Please note that it's not an engagement of any of the parts, you are free, we are free and we love free softwares
+Please note that your donation is not an engagement of any of the parts, you are free, we are free, and we love free softwares
 
 ## Features
 
