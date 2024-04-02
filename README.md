@@ -29,6 +29,10 @@ The doc is available on https://nazimboudeffa.gumroad.com
 
 Please help me with a donation by clicking on the PayPal logo or follow https://paypal.me/nazimboudeffa
 
+## Help
+
+You can join our Discord https://discord.gg/EpZTKMb
+
 ## Features
 
 - Networking
