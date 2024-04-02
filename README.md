@@ -35,7 +35,7 @@ Please note that your donation is not an engagement of any of the parts, you are
 
 ## Support
 
-You can join our little server on Discord https://discord.gg/EpZTKMb
+You can join our little server on Discord just dm me on LinkedIn and I send you the link as we dont't want trolls
 
 ## Features
 
