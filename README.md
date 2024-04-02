@@ -62,4 +62,4 @@ npm run dev
 Here's how you can contribute:
 
 - Open an issue if you believe you've encountered a bug.
-- Make a pull request to add new features/make quality-of-life improvements/fix bugs.
+- Make a pull request in the develop branch to add new features/make quality-of-life improvements/fix bugs.
