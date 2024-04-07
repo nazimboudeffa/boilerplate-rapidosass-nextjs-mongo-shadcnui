@@ -6,10 +6,8 @@ import { fontHeading } from "@/lib/fonts"
 import { buttonVariants } from "@/components/ui/button"
 import Header from "@/components/Header"
 
-import Image from 'next/image'
-import paypal from "../../../public/donations/paypal_logo.svg"
-
 import { useSession } from "next-auth/react";
+import Faq from "@/components/Faq"
 
 function Pricing() {
 
@@ -51,7 +49,7 @@ function Pricing() {
                 <h1
                     className={`text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl ${fontHeading.variable}`}
                 >
-                    Donate what you want.
+                    Our pricing plans.
                 </h1>
                 <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
                     Start for free now!
@@ -117,26 +115,9 @@ function Pricing() {
                 <h1
                     className={`text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl ${fontHeading.variable}`}
                 >
-                    How it works?
+                    FAQ
                 </h1>
-                <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-                    This boilerplate is FREE but I need money to keep it up.
-                </p>
-                <div className="flex flex-wrap md:flex-row gap-3 justify-center">
-                    <Link href="https://paypal.me/nazimboudeffa"><Image src={paypal} height={80} alt="paypal" /></Link>
-                </div>
-                <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-                    Please help me with a donation by clicking on the PayPal logo &#129309;.
-                </p>
-                <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-                    Or visit <Link href="https://paypal.me/nazimboudeffa">https://paypal.me/nazimboudeffa</Link>.
-                </p>
-                <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-                    You have to notice that donations are not refundable and the service can stop at anytime.
-                </p>
-                <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-                    I am free you are free and we love free softwares. 
-                </p>
+                <Faq />
             </div>
         </>
     )
