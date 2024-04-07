@@ -9,13 +9,13 @@ function Footer () {
                 <div className="flex text-gray-500">
                     <p>Crafted with <span className="text-red-500">❤</span> on <a href="https://github.com/nazimboudeffa/boilerplate-magiclink-nextjs-mongo"><u>GitHub</u></a></p> 
                 </div>
-                
-                <div className="flex text-gray-500">
-                    <p>&copy; 2024 ACME</p>
-                </div>
 
                 <div className="flex">
                     <ModeToggle />
+                </div>
+                
+                <div className="flex text-gray-500">
+                    <p>&copy; 2024 ACME</p>
                 </div>
             </div>
         </div>
