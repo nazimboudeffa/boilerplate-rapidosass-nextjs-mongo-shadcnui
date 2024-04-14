@@ -13,7 +13,7 @@
 
 <div align="center">
   <a href="https://paypal.me/nazimboudeffa">
-    <img src="./public/donations/paypal_logo.svg">
+    <img src="./public/paypal_logo.svg">
   </a>
 </div>
 
