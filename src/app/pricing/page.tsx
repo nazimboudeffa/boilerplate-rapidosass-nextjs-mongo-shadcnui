@@ -1,13 +1,16 @@
 "use client"
-import Link from "next/link"
 import { CheckCircle2, Coffee, Heart, CircleDollarSign } from "lucide-react"
 
 import { fontHeading } from "@/lib/fonts"
-import { buttonVariants } from "@/components/ui/button"
 import Header from "@/components/Header"
 
 import { useSession } from "next-auth/react";
 import Faq from "@/components/Faq"
+
+
+import {loadStripe} from "@stripe/stripe-js";
+import { Button, buttonVariants } from "@/components/ui/button"
+
 
 function Pricing() {
 
@@ -17,7 +20,7 @@ function Pricing() {
         {
             id: "0",
             name: "Free",
-            price: "$0",
+            price: "€0",
             href: "/api/auth/signin",
             subtitle: "enjoy basic features",
             highlight: false,
@@ -29,8 +32,8 @@ function Pricing() {
         {
             id: "1",
             name: "Premium",
-            upcomingPrice: "$99",
-            price: "$0",
+            upcomingPrice: "€99",
+            price: "€5",
             href: "/api/auth/signin",
             subtitle: "donate what you want",
             highlight: true,
@@ -41,6 +44,40 @@ function Pricing() {
             ],
         },
     ]
+
+    const redirectToSignIn = () => {
+        window.location.href = '/api/auth/signin';
+    };
+
+    const redirectToCheckout = async () => {
+        try {
+            const stripe = await loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string);
+
+            if (!stripe) throw new Error('Stripe failed to initialize.');
+
+            const checkoutResponse = await fetch('/api/checkout_sessions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({amount: 5}),
+            });
+
+            if (!checkoutResponse.ok) {
+                throw new Error('Failed to create checkout session.');
+            }
+
+            const {sessionId} = await checkoutResponse.json();
+
+            const stripeError = await stripe.redirectToCheckout({sessionId});
+
+            if (stripeError) {
+                console.error(stripeError);
+            }
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
     return (
         <>
@@ -83,14 +120,14 @@ function Pricing() {
                             </div>
                         )}
                         <div className="mt-5 w-full">
-                            <Link
-                                href={p.href}
+                            <Button
+                                onClick={()=>p.price == '€5' ? redirectToCheckout() : redirectToSignIn()}
                                 className={`${buttonVariants({
                                     variant: "default",
                                 })} w-full`}
                             >
                                 {p.callToAction}
-                            </Link>
+                            </Button>
                         </div>
                         {p.features.length > 0 && (
                             <div className="mt-5 w-full text-sm flex flex-col gap-2">
