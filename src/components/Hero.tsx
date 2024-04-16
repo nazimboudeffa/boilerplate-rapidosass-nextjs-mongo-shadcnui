@@ -1,5 +1,7 @@
 "use client"
 import Image from 'next/image'
+import Link from 'next/link'
+import { buttonVariants } from "@/components/ui/button"
 import unsplash from '/public/kenny-eliason-hKegPH8_4Rg-unsplash.jpg'
 
 function Hero () {
@@ -20,12 +22,12 @@ function Hero () {
             </p>
 
             <div className="mt-4 md:mt-8">
-                <a
+                <Link
                 href="/pricing"
-                className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                className={`${buttonVariants({ variant: "default" })}`}
                 >
                 Get Started Today
-                </a>
+                </Link>
             </div>
             </div>
         </div>
